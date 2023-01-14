@@ -12,14 +12,26 @@
 
 <body>
   <div class="topnav">
-    <a class="main" href="../index.html">Goals</a>
+    <a href="../index.html">Goals</a>
     <a href="../progress/index.html">Progress</a>
-    <a href="../newgoal/index.html">New Goal</a>
+    <a class="main" href="../newgoal/index.html">New Goal</a>
+    <a href="../edit/index.html">Goal Edit</a>
     <a href="../notifi/index.html">Notifications</a>
     <a class="signup" href="../signup/index.html">Sign-Up</a>
     <a class="signin" href="../signin/index.html">Sign-In</a>
   </div>
 
+  <form>
+    <input type="text" id="gname" name="gname" placeholder="Goal"><br><br>
+    <input type="text" id="spe" name="measurable" placeholder="Specific"><br><br>
+    <input type="text" id="mea" name="measurable" placeholder="Measurable"><br><br>
+    <input type="text" id="ach" name="achievable" placeholder="Achievable"><br><br>
+    <input type="text" id="rel" name="relevant" placeholder="Relevant"><br><br>
+    <input type="date" id="date" name="date" placeholder="Password"><br><br>
+    <input title="To set the targets, please submit them seperated by a comma and space (e.g. Drink 1 glass, Drink 2 glasses)!" type="text" id="tar" name="targets" placeholder="Targets (Hover)"><br><br>
+    <input title="Pick a color for the goal." type="color" id="col" name="color" placeholder="Color"><br><br>
+    <input type="submit" value="Submit">
+  </form>
 </body>
 
 </html>

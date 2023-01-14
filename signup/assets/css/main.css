@@ -31,17 +31,6 @@ body{
     color: black;
   }
 
-  .topnav a.main {
-    background-color: #9b72cd;
-    color: white;
-  }
-
-  .topnav a.main:hover {
-    background-color: rgb(162, 254, 231);
-    color: black;
-  }
-
-
   .topnav a.signin {
     float: right;
     color: #000000;
