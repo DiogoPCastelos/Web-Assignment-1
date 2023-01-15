@@ -2,6 +2,29 @@ body{
     background-color: rgb(35, 35, 35);
 }
 
+table {
+
+  text-align: center;
+
+  width: 95%;
+
+  margin: 5% auto;
+
+  table-layout: auto;
+
+  border-collapse: collapse;  
+
+}
+
+th,td {
+  border: 3.25px solid black;
+}
+
+
+tr {
+  background-color: #ffffff;
+}
+
 .topnav {
     background-color: rgb(49, 48, 48);
     overflow: hidden;
